@@ -197,7 +197,6 @@ public class PainelBingo extends javax.swing.JFrame {
     
     private void jTextFieldNumeroKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNumeroKeyPressed
         // TODO add your handling code here:
-        System.out.println("Chave da tecla: " + evt.getKeyChar());
         if (evt.getKeyCode() == VK_ENTER){
             atualizaPainelSorteio();
         }
